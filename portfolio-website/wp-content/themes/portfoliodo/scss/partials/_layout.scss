@@ -1,0 +1,17 @@
+.header-bar {
+
+	h2 {
+		position: relative;
+		top: -20px;
+		left: 1em;
+	}
+
+	.main-nav-contain {
+		@include flexbox;
+		width: 100%;
+
+		.main-menu {
+			width: 100%;
+		}
+	}
+}

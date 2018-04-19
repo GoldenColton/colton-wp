@@ -1,0 +1,384 @@
+/*
+Theme Name: Portfoliodo
+Author: Colton Wood
+Description: A learning theme. The beginning of the end
+Version: 0.1
+License: GPLv3
+*/
+/* Partials */
+/*        Colors        */
+/* Greens */
+/*        Color Roles        */
+/*     &#     WordPress Core          */
+/*------------------------------------*/
+.alignnone {
+  margin: 5px 20px 20px 0; }
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto; }
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px; }
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0; }
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px; }
+
+a img.alignnone {
+  margin: 5px 20px 20px 0; }
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0; }
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%;
+  /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center; }
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0; }
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0; }
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px; }
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto; }
+
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px; }
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */ }
+
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */ }
+
+html {
+  box-sizing: border-box; }
+
+* {
+  box-sizing: border-box; }
+  *:before {
+    box-sizing: border-box; }
+  *:after {
+    box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+.content img {
+  max-width: 100%;
+  height: auto; }
+.content pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word; }
+
+body {
+  font-family: 'Roboto', Calibri, Arial, sans-serif;
+  line-height: 1.4; }
+
+.header-bar h2 {
+  position: relative;
+  top: -20px;
+  left: 1em; }
+.header-bar .main-nav-contain {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+  .header-bar .main-nav-contain .main-menu {
+    width: 100%; }
+
+header, footer {
+  width: 100%;
+  background-color: #B8D470;
+  padding: 15px;
+  border-radius: 5px;
+  border: solid 5px #ABC95D; }
+
+.header {
+  background: #B8D470;
+  color: #D0E3A1;
+  background-size: cover;
+  background-position: center center; }
+
+.header-bar {
+  width: 100%; }
+  .header-bar .custom-logo-link {
+    background: none; }
+  .header-bar h2 {
+    color: #152910; }
+
+.site-title {
+  display: none;
+  position: absolute;
+  top: 1em;
+  left: 20%; }
+  .site-title a {
+    color: #D0E3A1;
+    background: none;
+    text-decoration: none;
+    padding: .5em; }
+
+.current_page_item {
+  background: #152910; }
+  .current_page_item a {
+    color: #D0E3A1;
+    background: #152910; }
+
+@media screen and (min-width: 600px) {
+  .main-nav-contain ul li {
+    display: inline-block;
+    psoition: relative; }
+    .main-nav-contain ul li:hover .sub-menu {
+      display: block; }
+    .main-nav-contain ul li a {
+      display: block;
+      white-space: nowrap;
+      padding: .5em; }
+  .main-nav-contain ul.sub-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    text-align: left;
+    background: white; } }
+.social-navigation a:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: "Genericons";
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+  vertical-align: top; }
+
+.social-navigation ul {
+  list-style: none;
+  margin: 0 0 -0.4375em; }
+
+.social-navigation li {
+  float: left;
+  margin: 0 0.4375em 0.4375em 0; }
+
+.social-navigation a {
+  border: 1px solid #d1d1d1;
+  border-radius: 50%;
+  color: #1a1a1a;
+  display: block;
+  height: 35px;
+  position: relative;
+  width: 35px; }
+
+.social-navigation a:before {
+  content: "\f415";
+  height: 33px;
+  line-height: 33px;
+  text-align: center;
+  width: 33px; }
+
+.social-navigation a:hover:before,
+.social-navigation a:focus:before {
+  color: #007acc; }
+
+.social-navigation a[href*="codepen.io"]:before {
+  content: "\f216"; }
+
+.social-navigation a[href*="digg.com"]:before {
+  content: "\f221"; }
+
+.social-navigation a[href*="dribbble.com"]:before {
+  content: "\f201"; }
+
+.social-navigation a[href*="dropbox.com"]:before {
+  content: "\f225"; }
+
+.social-navigation a[href*="facebook.com"]:before {
+  content: "\f203"; }
+
+.social-navigation a[href*="flickr.com"]:before {
+  content: "\f211"; }
+
+.social-navigation a[href*="foursquare.com"]:before {
+  content: "\f226"; }
+
+.social-navigation a[href*="plus.google.com"]:before {
+  content: "\f206"; }
+
+.social-navigation a[href*="github.com"]:before {
+  content: "\f200"; }
+
+.social-navigation a[href*="instagram.com"]:before {
+  content: "\f215"; }
+
+.social-navigation a[href*="linkedin.com"]:before {
+  content: "\f208"; }
+
+.social-navigation a[href*="path.com"]:before {
+  content: "\f219"; }
+
+.social-navigation a[href*="pinterest.com"]:before {
+  content: "\f210"; }
+
+.social-navigation a[href*="getpocket.com"]:before {
+  content: "\f224"; }
+
+.social-navigation a[href*="polldaddy.com"]:before {
+  content: "\f217"; }
+
+.social-navigation a[href*="reddit.com"]:before {
+  content: "\f222"; }
+
+.social-navigation a[href*="skype.com"]:before {
+  content: "\f220"; }
+
+.social-navigation a[href*="stumbleupon.com"]:before {
+  content: "\f223"; }
+
+.social-navigation a[href*="tumblr.com"]:before {
+  content: "\f214"; }
+
+.social-navigation a[href*="twitter.com"]:before {
+  content: "\f202"; }
+
+.social-navigation a[href*="vimeo.com"]:before {
+  content: "\f212"; }
+
+.social-navigation a[href*="wordpress.com"]:before,
+.social-navigation a[href*="wordpress.org"]:before {
+  content: "\f205"; }
+
+.social-navigation a[href*="youtube.com"]:before {
+  content: "\f213"; }
+
+.social-navigation a[href^="mailto:"]:before {
+  content: "\f410"; }
+
+.social-navigation a[href*="spotify.com"]:before {
+  content: "\f515"; }
+
+.social-navigation a[href*="twitch.tv"]:before {
+  content: "\f516"; }
+
+.social-navigation a[href$="/feed/"]:before {
+  content: "\f413"; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #D0E3A1;
+  font-family: sans-serif; }
+  body.blog {
+    background: #D0E3A1; }
+  body.home {
+    background: #D0E3A1; }
+
+a {
+  color: #152910;
+  -webkit-transition: color .25s, background .25s;
+  transition: color .25s, background .25s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear; }
+  a:hover {
+    color: #D0E3A1;
+    background: #152910; }
+
+.hentry {
+  padding: .5em;
+  border-radius: .5em; }
+
+.sticky {
+  background: #B8D470;
+  position: relative;
+  margin: 25px 20px;
+  padding: 20px; }
+  .sticky:before {
+    content: 'featured';
+    background: #B8D470;
+    color: #487728;
+    position: absolute;
+    top: -1.25em;
+    left: 1.5em;
+    padding: .25em .75em;
+    border-radius: 5px 5px 0 0; }
+  .sticky .entry-title {
+    margin: 0; }
+  .sticky a {
+    background: #B8D470; }
+
+.pagination a {
+  background-color: #76B15F;
+  padding: .5em;
+  border-radius: .25em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: .5em;
+  display: inline-block;
+  color: Black;
+  font-family: #487728; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,50 @@
+ header, footer {
+ 	width: 100%;
+	background-color: $HeaderColor;
+	padding: 15px;
+	border-radius: 5px;
+	border: solid 5px $Laos;
+}
+.header {
+	background: $HeaderColor;
+	color: $LightestColor;
+	//Custom Background Image!
+	background-size: cover;
+	background-position: center center;
+}
+
+.header-bar {
+	width: 100%;
+
+	.custom-logo-link {
+		background: none;
+	}
+
+	h2 {
+		color: $DarkestColor;
+	}
+}
+
+.site-title {
+	display: none;
+	position: absolute;
+	top: 1em;
+	left: 20%;
+
+	& a {
+		color: $LightestColor;
+		background: none;
+		text-decoration: none;
+		padding: .5em;
+	}
+}
+
+// Current menu page
+.current_page_item {
+	background: $MenuBtnHoverColor;
+
+	& a {
+	color: $LinkHoverColor;
+	background: $MenuBtnHoverColor;
+	}
+}

@@ -1,0 +1,83 @@
+/*
+Theme Name: Portfoliodo
+Author: Colton Wood
+Description: A learning theme. The beginning of the end
+Version: 0.1
+License: GPLv3
+*/
+
+
+
+/* Partials */
+@import 'scss/modules/colors';
+@import 'scss/modules/mixins';
+@import 'scss/vendor/flexbox';
+@import 'scss/partials/wordpress-core';
+@import 'scss/partials/reset';
+@import 'scss/partials/typography';
+@import 'scss/partials/layout';
+@import 'scss/partials/header-footer';
+@import 'scss/partials/navigation';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: $BGcolor;
+	font-family: sans-serif;
+
+	&.blog {
+		background: $BGcolor;
+	}
+	&.home {
+		background: $BGcolor;
+	}
+}
+
+a {
+	color: $LinkColor;
+	-webkit-transition: color .25s, background .25s;
+    transition: color .25s, background .25s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+
+	&:hover {
+		color: $LinkHoverColor;
+		background: $BtnHoverColor;
+	}
+}
+
+.hentry {
+	padding: .5em;
+	border-radius: .5em;
+}
+
+.sticky {
+	background: $HeaderColor;
+	position: relative;
+	margin: 25px 20px;
+	padding: 20px;
+
+	&:before {
+		content: 'featured';
+		background: $HeaderColor;
+		color: $Valley;
+		position: absolute;
+		top: -1.25em;
+		left: 1.5em;
+		padding: .25em .75em;
+		border-radius: 5px 5px 0 0;
+	}
+	& .entry-title {
+		margin: 0;
+	}
+	& a{
+		background: $HeaderColor;
+	}
+}
+
+//pagination
+.pagination a {
+	@include button;
+}

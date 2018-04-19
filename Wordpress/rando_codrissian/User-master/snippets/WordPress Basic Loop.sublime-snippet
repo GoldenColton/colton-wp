@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<?php 
+//begin THE LOOP
+if( have_posts() ): ?>
+	<?php while( have_posts() ): the_post(); ?>
+		<!-- markup for one post or page goes here -->
+	<?php endwhile; ?>
+
+<?php else: ?>
+	<h2>Sorry, no posts found</h2>
+<?php endif;  //end THE LOOP ?>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>loop</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

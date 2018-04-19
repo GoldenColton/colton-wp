@@ -1,0 +1,49 @@
+body {
+	background-color:DarkSlateGrey;
+}
+/*page container*/
+div#login {
+	background-color:LightGreen;
+	width:500px;
+	box-sizing:border-box;
+	border-radius:3px;
+	padding:3em;
+	margin:2em auto;
+}
+
+/*logo*/
+.login h1 a {
+	background-image:url(../images/pine_tree_icon.svg);
+	width:128px;
+	height:128px;
+	background-size:128px;
+}
+
+.login form {
+	box-shadow:none;
+}
+
+/*button*/
+.wp-core-ui .button-primary.button-large {
+	background-color:SlateGrey;
+	box-shadow:none;
+	border:solid 1px DarkSlateGrey;
+	border-radius:2px;
+	text-shadow:none;
+	font-size: 130%;
+	padding:.25em 1em;
+	display:block;
+	margin:1em 0 0;
+	width: 50%;
+	text-transform:uppercase;
+	height:auto;
+	transition:background-color .5s;
+}
+.wp-core-ui .button-primary.button-large:hover {
+	background-color:DarkSlateGrey;
+}
+
+/*messages and errors*/
+.login .message {
+	display: none;
+}

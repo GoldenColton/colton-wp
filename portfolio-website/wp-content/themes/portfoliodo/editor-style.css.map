@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAc;ACEd,IAAK;EACJ,WAAW,EAAE,oCAAoC;EACjD,WAAW,EAAE,GAAG;;ADDjB,IAAK;EACJ,gBAAgB,EAAE,KAAK",
+"sources": ["editor-style.scss","scss/partials/_typography.scss"],
+"names": [],
+"file": "editor-style.css"
+}

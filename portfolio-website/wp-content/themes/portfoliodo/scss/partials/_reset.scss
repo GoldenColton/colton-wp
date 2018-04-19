@@ -1,0 +1,31 @@
+html {
+	box-sizing: border-box;
+}
+* {
+	box-sizing: border-box;
+
+	&:before {
+		box-sizing: border-box;
+	}
+	&:after {
+		box-sizing: border-box;
+	}
+}
+body {
+	margin: 0;
+}
+
+.content {
+	
+	& img {
+		max-width: 100%;
+		height: auto;
+	}
+	& pre {
+		white-space: pre-wrap;
+		white-space: -moz-pre-wrap;
+		white-space: -pre-wrap;
+		white-space: -o-pre-wrap;
+		word-wrap: break-word;
+	}
+}

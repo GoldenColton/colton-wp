@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"Hex-to-RGBA",
+		"Search WordPress Codex"
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Color Highlighter",
+		"ColorPicker",
+		"DeleteBlankLines",
+		"DocBlockr",
+		"Hex-to-RGBA",
+		"LiveReload",
+		"Markdown Preview",
+		"Minifier",
+		"Monokai Extended",
+		"Package Control",
+		"PackageResourceViewer",
+		"Search WordPress Codex",
+		"Search WordPress Codex or QueryPosts",
+		"SideBarEnhancements",
+		"WordPress"
+	]
+}

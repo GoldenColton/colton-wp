@@ -1,0 +1,54 @@
+#jello-jar-bar {
+	background-color: Crimson;
+	color: DarkRed;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-left: 40%;
+}
+
+.admin-bar #jello-jar-bar {
+	top: 32px;
+}
+
+#jello-jar-bar a {
+	background-color: Ivory;
+	color: Crimson;
+	border: solid 1px Crimson;
+	border-radius: 5px;
+	min-width: 7.5%;
+	height: 1.75em;
+	line-height: 1.5em;
+	position: absolute;
+	top: 12px;
+	left: 57%;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: color .5s, background-color .5s, border .5s, min-width .5s, height .5s, border-radius .5s;
+	transition: color .5s, background-color .5s, border .5s, min-width .5s, height .5s, border-radius .5s;
+}
+#jello-jar-bar a:hover {
+	background-color: Crimson;
+	color: Ivory;
+	border: solid 3px Ivory;
+	border-radius: 7px;
+	min-width: 8.5%;
+	height: 2em;
+}
+#jello-jar-bar .dismiss {
+	background-color: Ivory;
+	color: Crimson;
+	border: solid 1px Ivory;
+	min-width: 1.5%;
+	left: 97%;
+	-webkit-transition: color .5s, background-color .5s, border .5s, min-width .5s, height .5s, border-radius .5s;
+	transition: color .5s, background-color .5s, border .5s, min-width .5s, height .5s, border-radius .5s;
+}
+#jello-jar-bar .dismiss:hover {
+	background-color: DodgerBlue;
+	color: Ivory;
+	border: solid 3px Ivory;
+	border-radius: 7px;
+	min-width: 1.75%;
+}
